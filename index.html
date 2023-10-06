@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
+</head>
+
+<body>
+  <div data-app id="app"
+    style="background: linear-gradient(to left bottom, hsl(112, 100%, 85%) 0%,hsl(38, 100%, 85%) 100%)"></div>
+  <!-- style="background: linear-gradient(to left bottom, hsl(246, 100%, 85%) 0%,hsl(145, 100%, 85%) 100%)"> -->
+  </div>
+
+  <script>
+    window.$docsify = {
+      name: '<h3>狂人日记</h3>',
+      // logo:'res/img/icon.svg',
+      auto2top: true,
+      notFoundPage: 'page/error/404',
+      coverpage: true,
+      // 移动设备合并导航栏到侧边栏
+      mergeNavbar: true,
+      // 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
+      loadSidebar: true,
+      // 导航栏支持，默认加载的是项目根目录下的_navbar.md文件
+      loadNavbar: true,
+      // 封面支持，默认加载的是项目根目录下的_coverpage.md文件
+      coverpage: true,
+      // 最大支持渲染的标题层级
+      maxLevel: 4,
+      // 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级（建议配置为2-4）
+      subMaxLevel: 1,
+      // 小屏设备下合并导航栏到侧边栏
+      mergeNavbar: true,
+      // 搜索
+      search: {
+        maxAge: 86400000,
+        placeholder: '搜索',
+        noData: '没有找到你想要的！',
+        depth: 4,
+        hideOtherSidebarContent: false,
+      },
+      // 字数统计
+      count: {
+        countable: true,
+        position: 'top',
+        margin: '10px',
+        float: 'right',
+        fontsize: '0.9em',
+        color: 'rgb(90,90,90)',
+        language: 'chinese',
+        localization: {
+          words: "",
+          minute: ""
+        },
+        isExpected: true
+      },
+      // 分页导航插件
+      pagination: {
+        previousText: '上一卷',
+        nextText: '下一卷',
+        crossChapter: true,
+        crossChapterText: true
+      },
+      // 代码复制
+      copyCode: {
+        buttonText: '复制',
+        errorText: '复制错误',
+        successText: '复制成功',
+      },
+      'flexible-alerts': {
+        style: 'flat'
+      },
+      toc: {
+        scope: '.markdown-section',
+        headings: 'h1, h2, h3, h4, h5, h6',
+        title: '目录',
+      },
+      // footer: {
+      //   copy: '<span>jsonlili.com &copy; 2023</span>',
+      //   auth: 'by primer',
+      //   pre: '<hr/>',
+      //   style: 'text-align: center;',
+      //   class: 'className',
+      // },
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- 搜索功能支持 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- 文章字数统计 -->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"> </script>
+  <!-- 分页导航 -->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- 页脚信息 -->
+  <!-- <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script> -->
+  <!-- 代码块复制 -->
+  <script src="https://unpkg.com/docsify-copy-code@2"></script>
+  <!-- 文本高亮 -->
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+  <!-- 目录跳转 -->
+  <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
+  <!-- 图片缩放 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- 代码高亮 -->
+  <!-- https://prismjs.com/#supported-languages -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+
+</body>
+
+</html>
