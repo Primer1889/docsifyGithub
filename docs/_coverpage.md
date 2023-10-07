@@ -7,6 +7,6 @@
 
 <h3>轻量级，快速生成 Web 页面，一键部署</h3>
 
-<spand>好记性不如烂笔头，使用过几款笔记软件，甚是喜欢 Docsify</spand> 
+<spand>好记性不如烂笔头，甚是喜欢 Docsify</spand> 
 
 [开始阅读](/README.md)
