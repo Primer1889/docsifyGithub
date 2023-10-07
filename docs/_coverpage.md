@@ -7,6 +7,6 @@
 
 <h3>轻量级，快速生成 Web 页面，一键部署</h3>
 
-<spand>好记性不如烂笔头，甚是喜欢 Docsify</spand> 
+<spand>天气变凉了，我以为是入秋，原来是台风掠过</spand> 
 
 [开始阅读](/README.md)
