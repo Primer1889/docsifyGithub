@@ -1,7 +1,7 @@
 <!-- _coverpage.md -->
 <!-- 封面页配置 -->
 
-![logo](res/img/icon.svg)
+![logo](res/img/logo.png)
 
 <h1>lf 的草稿纸</h1>
 
